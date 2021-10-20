@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Afficher du texte sur une image avec HTML / CSS</title>
+    
+    
+    
+    <style type="text/css">
+      /* Mettez le code CSS ici. */
+    .container {
+        display: inline-block;
+        position: relative;
+        width: 95%;
+        margin-left: 5%;
+    }
+    .container .text {
+        background: rgba(0, 0, 0, 1);
+        z-index: 1;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        font-family: Georgia;
+        margin: 0 auto;
+        left: 40%;
+        right: 0;
+        top: 50%;
+        color: white;
+        width: 50%;
+        border: 15px solid white;
+    }
+    </style>
+
+
+  </head> 
+  <body>
+    <div class="container">
+      <img src="https://1.bp.blogspot.com/-w-wLWap_ydk/XSZZ3wSKtcI/AAAAAAAAFFY/-BWB5LvxBA0imZ8uMw-XvTmsw8k7Pk1uQCLcBGAs/s400/test1.jpg" height="200px" width="90%">
+      <div class="text">
+        <h1>Mon titre</h1>
+        <h2>Mon titre secondaire</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt ad alias velit provident, aspernatur voluptas officiis nisi ducimus? Ullam!</p>
+        <a href="blablab.html">En savoir plus...</a>
+      </div>
+    </div>
+  </body>
+</html>
